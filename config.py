@@ -6,3 +6,11 @@ postgres_conn = {
     'user': 'postgres',
     'password': 'password'
 }
+
+mysql_conn = {
+    'host': '127.0.0.1',
+    'port': '3306',
+    'database': 'databasename',
+    'user': 'Username',
+    'password': 'Password'
+}

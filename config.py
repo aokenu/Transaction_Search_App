@@ -20,3 +20,6 @@ mysql_connv = {
     'port': '3306',
     'database': 'databasename',
     'user': 'Username',
+    'password': 'Password'
+}
+

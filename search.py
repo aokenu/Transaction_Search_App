@@ -4,4 +4,5 @@ import csv
 import datetime
 import time
 import mysql.connector
-import 
+import threading
+from config import mysql_conn_1, mysql_conn2, mysql_conn3, mysql_conn4

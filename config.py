@@ -14,3 +14,7 @@ mysql_conn = {
     'user': 'Username',
     'password': 'Password'
 }
+
+mysql_connv = {
+    'host': '127.0.0.1',
+    

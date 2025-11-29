@@ -28,3 +28,6 @@ mysql_conn3 = {
     'port': '3307',
     'database': 'databasename',
     'user': 'Username',
+    'password': 'Password'
+}
+

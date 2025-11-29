@@ -36,3 +36,6 @@ mysql_conn4 = {
     'port': '3306',
     'database': 'databasename',
     'user': 'Username',
+    'password': 'Password'
+}
+

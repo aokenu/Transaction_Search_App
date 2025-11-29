@@ -34,3 +34,4 @@ mysql_conn3 = {
 mysql_conn4 = {
     'host': '127.0.0.1',
     'port': '3306',
+    'database': 'databasename',

@@ -4,3 +4,5 @@ postgres_conn = {
     'port': '5432',
     'database': 'postgres',
     'user': 'postgres',
+    'password': 'password'
+}

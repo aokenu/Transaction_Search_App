@@ -14,5 +14,9 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
 
-
+#from datetime import date, timedelta
+import time
+print("\n\n\n\n")
+print("you're about to see the status of your webservices")
+#get current time
 

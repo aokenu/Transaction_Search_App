@@ -47,5 +47,6 @@ with open(path1, 'r') as file_object:
         #print(lines)
     session_ids=lines.split()
     #print(f"' + {banks} + '", sep="','" )
-     print(session_ids)
+    print(session_ids)
+    fieldnames=['session_id','transaction_date','response_code','amount']
     

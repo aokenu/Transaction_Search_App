@@ -56,3 +56,4 @@ with open(path1, 'r') as file_object:
 
 # Define your queries
 postgres_query = "SELECT * FROM mytable"   
+mysql_query1 = f"SELECT session_id, transaction_date, response_code, amount FROM nip_report51.`transaction` where session_id in ({p});"

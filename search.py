@@ -52,3 +52,7 @@ with open(path1, 'r') as file_object:
     fieldnames4=['session_id','request_time','response_code','amount']
     p=str([str(x) for x in session_ids]).strip("[]")
     print(p)
+
+
+# Define your queries
+postgres_query = "SELECT * FROM mytable"   

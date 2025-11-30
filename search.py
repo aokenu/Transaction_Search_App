@@ -97,4 +97,5 @@ def run_mysql_query1(): # type: ignore
     mysql_cursor.close()
     mysql_db.close()
 
+    # Function to execute MySQL query in a thread
     

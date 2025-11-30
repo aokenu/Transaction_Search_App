@@ -35,3 +35,4 @@ final_date= new_date.strftime('%Y-%m-%d')
 #Y is for Year  
 print(final_date)
 CurrentDate1=datetime.date.today() 
+days1 = datetime.timedelta(0)

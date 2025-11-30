@@ -46,4 +46,5 @@ with open(path1, 'r') as file_object:
     lines=file_object.read()
         #print(lines)
     session_ids=lines.split()
+    #print(f"' + {banks} + '", sep="','" )
     

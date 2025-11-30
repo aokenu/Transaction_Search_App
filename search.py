@@ -18,5 +18,6 @@ from email.mime.application import MIMEApplication
 import time
 print("\n\n\n\n")
 print("you're about to see the status of your webservices")
-#get current time
 
+#get current time
+t = time.localtime()

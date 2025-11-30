@@ -34,3 +34,4 @@ final_date= new_date.strftime('%Y-%m-%d')
 #%m is for month  
 #Y is for Year  
 print(final_date)
+CurrentDate1=datetime.date.today() 

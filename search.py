@@ -82,4 +82,5 @@ def run_mysql_query1(): # type: ignore
     data=str(f"-----{mysql_conn1['database']}-----")
 
 
-
+    with open(f"/Transactions_search/Result/result_{mysql_conn1['database']}.csv", 'w', newline = '') as csvfile:
+        my_writer = csv.writer(csvfile, delimiter = ' ')

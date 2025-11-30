@@ -10,6 +10,9 @@ from config import mysql_conn_1, mysql_conn2, mysql_conn3, mysql_conn4
 
 import smtplib,ssl
 from os.path import basename
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+from email.mime.application import MIMEApplication
 
 
 

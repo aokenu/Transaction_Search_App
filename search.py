@@ -64,3 +64,4 @@ mysql_query4 = f"SELECT session_id, request_time, response_code, amount FROM nip
 
 # # Function to execute PostgreSQL query in a thread
 # def run_postgres_query():
+#     postgres_db = psycopg2.connect(**postgres_conn)

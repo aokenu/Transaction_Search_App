@@ -60,3 +60,7 @@ mysql_query1 = f"SELECT session_id, transaction_date, response_code, amount FROM
 mysql_query2 = f"SELECT session_id, transaction_date, response_code, amount FROM nip_report50.`transaction` where session_id in ({p});"
 mysql_query3 = f"SELECT session_id, transaction_date, response_code, amount FROM nip_report47.`transaction` where session_id in ({p});"
 mysql_query4 = f"SELECT session_id, request_time, response_code, amount FROM nip_settlement.`tbl_fund_transfer_credits` where session_id in ({p});"
+
+
+# # Function to execute PostgreSQL query in a thread
+# def run_postgres_query():

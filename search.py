@@ -8,5 +8,8 @@ import threading
 from config import mysql_conn_1, mysql_conn2, mysql_conn3, mysql_conn4
 #from mysql.consnector import Error
 
+import smtplib,ssl
+from os.path import basename
+
 
 

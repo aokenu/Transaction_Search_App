@@ -42,3 +42,4 @@ final_date1= new_date1.strftime('%Y-%m-%d')
 print(final_date1)
 
 path1='/Transactions_search/session_ids.csv'
+with open(path1, 'r') as file_object:

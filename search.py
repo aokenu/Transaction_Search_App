@@ -73,3 +73,13 @@ mysql_query4 = f"SELECT session_id, request_time, response_code, amount FROM nip
 #     postgres_db.close()
 # Function to execute MySQL query in a thread
 
+def run_mysql_query1(): # type: ignore
+    mysql_db = mysql.connector.connect(**mysql_conn1)
+    mysql_cursor = mysql_db.cursor()
+    mysql_cursor.execute(mysql_query1)
+    results = mysql_cursor.fetchall()
+    print("MySQL results:", results)
+    data=str(f"-----{mysql_conn1['database']}-----")
+
+
+

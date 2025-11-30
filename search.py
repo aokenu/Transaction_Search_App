@@ -103,3 +103,4 @@ def run_mysql_query1(): # type: ignore
         mysql_cursor = mysql_db.cursor()
         mysql_cursor.execute(mysql_query2)
         results = mysql_cursor.fetchall()
+        print("MySQL results:", results)

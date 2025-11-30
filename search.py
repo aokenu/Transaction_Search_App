@@ -24,4 +24,13 @@ t = time.localtime()
 current_time = time.strftime("%H:%M:%S", t)
 print(current_time)
 
-#get cureent date
+#get current date
+CurrentDate=datetime.date.today()
+days = datetime.timedelta(30)
+
+new_date = CurrentDate - days
+final_date= new_date.strftime('%Y-%m-%d')
+#%d is for date  
+#%m is for month  
+#Y is for Year  
+print(final_date)

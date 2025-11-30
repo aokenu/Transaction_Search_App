@@ -105,7 +105,7 @@ def run_mysql_query1(): # type: ignore
         results = mysql_cursor.fetchall()
         print("MySQL results:", results)
         data=str(f"-----{mysql_conn2['database']}-----")
-    with open(f"/Transactions_search/Result/result_{mysql_conn2['database']}.csv", 'w', newline = '') as csvfile:
-        
-        my_writer = csv.writer(csvfile, delimiter = ',')
-        my_writer.writerow(data)
+        with open(f"/Transactions_search/Result/result_{mysql_conn2['database']}.csv", 'w', newline = '') as csvfile:
+            
+            my_writer = csv.writer(csvfile, delimiter = ',')
+            my_writer.writerow(data)

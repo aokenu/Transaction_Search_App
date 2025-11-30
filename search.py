@@ -69,3 +69,6 @@ mysql_query4 = f"SELECT session_id, request_time, response_code, amount FROM nip
 #     postgres_cursor.execute(postgres_query)
 #     results = postgres_cursor.fetchall()
 #     print("PostgreSQL results:", results)
+#     postgres_cursor.close()
+#     postgres_db.close()
+

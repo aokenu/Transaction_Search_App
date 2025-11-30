@@ -101,3 +101,4 @@ def run_mysql_query1(): # type: ignore
     def run_mysql_query2():
         mysql_db = mysql.connector.connect(**mysql_conn2)
         mysql_cursor = mysql_db.cursor()
+        mysql_cursor.execute(mysql_query2)

@@ -71,4 +71,5 @@ mysql_query4 = f"SELECT session_id, request_time, response_code, amount FROM nip
 #     print("PostgreSQL results:", results)
 #     postgres_cursor.close()
 #     postgres_db.close()
+# Function to execute MySQL query in a thread
 

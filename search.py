@@ -99,4 +99,4 @@ def run_mysql_query1(): # type: ignore
 
     # Function to execute MySQL query in a thread
     def run_mysql_query2():
-        
+        mysql_db = mysql.connector.connect(**mysql_conn2)

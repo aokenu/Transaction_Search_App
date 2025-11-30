@@ -50,4 +50,4 @@ with open(path1, 'r') as file_object:
     print(session_ids)
     fieldnames=['session_id','transaction_date','response_code','amount']
     fieldnames4=['session_id','request_time','response_code','amount']
-    
+    p=str([str(x) for x in session_ids]).strip("[]")

@@ -43,3 +43,6 @@ print(final_date1)
 
 path1='/Transactions_search/session_ids.csv'
 with open(path1, 'r') as file_object:
+    lines=file_object.read()
+        #print(lines)
+    

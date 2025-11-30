@@ -49,4 +49,5 @@ with open(path1, 'r') as file_object:
     #print(f"' + {banks} + '", sep="','" )
     print(session_ids)
     fieldnames=['session_id','transaction_date','response_code','amount']
+    fieldnames4=['session_id','request_time','response_code','amount']
     

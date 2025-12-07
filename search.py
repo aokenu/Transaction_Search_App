@@ -119,4 +119,18 @@ def run_mysql_query2():
     mysql_cursor.close()
     mysql_db.close()
 
+# Function to execute MySQL query in a thread
+def run_mysql_query3():
+    mysql_db = mysql.connector.connect(**mysql_conn3)
+    mysql_cursor = mysql_db.cursor()
+    mysql_cursor.execute(mysql_query3)
+    results = mysql_cursor.fetchall()
+    print("MySQL results:", results)
+    data=str(f"-----{mysql_conn3['database']}-----")
     
+    
+    with open(f"/Transactions_search/Result/result_{mysql_conn3['database']}.csv", 'w', newline = '') as csvfile:
+        
+        my_writer = csv.writer(csvfile, delimiter = ',')
+        my_writer.writerow(data)
+        my_writer.writerow(fieldnames)

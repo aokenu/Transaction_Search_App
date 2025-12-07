@@ -97,15 +97,26 @@ def run_mysql_query1(): # type: ignore
     mysql_cursor.close()
     mysql_db.close()
 
-    # Function to execute MySQL query in a thread
-    def run_mysql_query2():
-        mysql_db = mysql.connector.connect(**mysql_conn2)
-        mysql_cursor = mysql_db.cursor()
-        mysql_cursor.execute(mysql_query2)
-        results = mysql_cursor.fetchall()
-        print("MySQL results:", results)
-        data=str(f"-----{mysql_conn2['database']}-----")
-        with open(f"/Transactions_search/Result/result_{mysql_conn2['database']}.csv", 'w', newline = '') as csvfile:
+# Function to execute MySQL query in a thread
+def run_mysql_query2():
+    mysql_db = mysql.connector.connect(**mysql_conn2)
+    mysql_cursor = mysql_db.cursor()
+    mysql_cursor.execute(mysql_query2)
+    results = mysql_cursor.fetchall()
+    print("MySQL results:", results)
+    data=str(f"-----{mysql_conn2['database']}-----")
+    with open(f"/Transactions_search/Result/result_{mysql_conn2['database']}.csv", 'w', newline = '') as csvfile:
             
-            my_writer = csv.writer(csvfile, delimiter = ',')
-            my_writer.writerow(data)
+        my_writer = csv.writer(csvfile, delimiter = ',')
+        my_writer.writerow(data)
+
+
+# loop through the rows
+        for row in results:
+            print(row)
+            #print("\n")
+            my_writer.writerow(row)
+    mysql_cursor.close()
+    mysql_db.close()
+
+    

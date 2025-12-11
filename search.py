@@ -134,3 +134,14 @@ def run_mysql_query3():
         my_writer = csv.writer(csvfile, delimiter = ',')
         my_writer.writerow(data)
         my_writer.writerow(fieldnames)
+
+
+    # loop through the rows
+        for row in results:
+            print(row)
+            #print("\n")
+            my_writer.writerow(row)
+    mysql_cursor.close()
+    mysql_db.close()
+
+    

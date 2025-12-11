@@ -175,3 +175,6 @@ mysql_thread1 = threading.Thread(target=run_mysql_query1)
 mysql_thread2 = threading.Thread(target=run_mysql_query2)
 mysql_thread3 = threading.Thread(target=run_mysql_query3)
 mysql_thread4 = threading.Thread(target=run_mysql_query4)
+
+# Start the threads
+#postgres_thread.start()

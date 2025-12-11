@@ -148,4 +148,5 @@ def run_mysql_query3():
 def run_mysql_query4():
     mysql_db = mysql.connector.connect(**mysql_conn4)
     mysql_cursor = mysql_db.cursor()
+    Updated the project file
     

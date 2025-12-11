@@ -144,4 +144,6 @@ def run_mysql_query3():
     mysql_cursor.close()
     mysql_db.close()
 
-    
+# Function to execute MySQL query in a thread
+def run_mysql_query4():
+      

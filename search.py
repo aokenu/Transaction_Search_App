@@ -165,4 +165,7 @@ def run_mysql_query4():
             #print("\n")
             my_writer.writerow(row)
     
+    mysql_cursor.close()
+    mysql_db.close()
+
     

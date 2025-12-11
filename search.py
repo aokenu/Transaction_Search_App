@@ -161,4 +161,8 @@ def run_mysql_query4():
     
     # loop through the rows'
         for row in results:
-            
+            print(row)
+            #print("\n")
+            my_writer.writerow(row)
+    
+    

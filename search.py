@@ -153,4 +153,4 @@ def run_mysql_query4():
     print("MySQL results:", results)
     data=str(f"-----{mysql_conn4['database']}-----")
 
-    
+    with open(f"/Transactions_search/Result/result_{mysql_conn4['database']}.csv", 'w', newline = '') as csvfile:

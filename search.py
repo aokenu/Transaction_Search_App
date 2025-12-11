@@ -168,4 +168,7 @@ def run_mysql_query4():
     mysql_cursor.close()
     mysql_db.close()
 
+
+# Create threads for each database
+#postgres_thread = threading.Thread(target=run_postgres_query)
     

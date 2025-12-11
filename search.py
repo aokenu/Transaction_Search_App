@@ -159,3 +159,4 @@ def run_mysql_query4():
         my_writer.writerow(fieldnames4)
 
     
+    # loop through the rows'

@@ -149,3 +149,8 @@ def run_mysql_query4():
     mysql_db = mysql.connector.connect(**mysql_conn4)
     mysql_cursor = mysql_db.cursor()
     mysql_cursor.execute(mysql_query4)
+    results = mysql_cursor.fetchall()
+    print("MySQL results:", results)
+    data=str(f"-----{mysql_conn4['database']}-----")
+
+    

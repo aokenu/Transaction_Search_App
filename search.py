@@ -171,4 +171,5 @@ def run_mysql_query4():
 
 # Create threads for each database
 #postgres_thread = threading.Thread(target=run_postgres_query)
+mysql_thread1 = threading.Thread(target=run_mysql_query1)
     

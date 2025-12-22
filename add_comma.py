@@ -26,3 +26,6 @@ t = time.localtime()
 current_time = time.strftime("%H:%M:%S", t)
 print(current_time)
 
+
+#get cureent date
+CurrentDate=datetime.date.today()  

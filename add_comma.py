@@ -54,4 +54,6 @@ with open(path1, 'r') as file_object:
     print(session_ids)
     fieldnames=['BVN','first_name','Middle_name','Surname','DOB','Account','Bank']
     p=str([(str(x)) for x in session_ids]).strip("[]")
-    
+    print(p)
+    with open('comma.csv','w', newline='\n') as fileo:
+       

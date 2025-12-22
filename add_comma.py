@@ -56,4 +56,6 @@ with open(path1, 'r') as file_object:
     p=str([(str(x)) for x in session_ids]).strip("[]")
     print(p)
     with open('comma.csv','w', newline='\n') as fileo:
+       my_writer = csv.writer(fileo)
+        my_writer.writerow(p) 
        

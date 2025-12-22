@@ -41,3 +41,4 @@ CurrentDate1=datetime.date.today()
 days1 = datetime.timedelta(0)
 
 new_date1 = CurrentDate1 - days1
+final_date1= new_date1.strftime('%Y-%m-%d')

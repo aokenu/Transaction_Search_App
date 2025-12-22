@@ -46,3 +46,5 @@ print(final_date1)
 
 
 path1='C:/python_work/Transactions_search/session_ids.csv'
+with open(path1, 'r') as file_object:
+    

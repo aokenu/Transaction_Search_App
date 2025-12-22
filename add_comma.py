@@ -49,4 +49,6 @@ path1='C:/python_work/Transactions_search/session_ids.csv'
 with open(path1, 'r') as file_object:
     lines=file_object.read()
         #print(lines)
+     session_ids=lines.split()
+    #print(f"' + {banks} + '", sep="','" )
     

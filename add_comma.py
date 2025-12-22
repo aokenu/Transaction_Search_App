@@ -21,3 +21,5 @@ import time
 pr
 int("\n\n\n\n")
 print("you're about to see the status of your webservices")
+#get current time
+t = time.localtime()

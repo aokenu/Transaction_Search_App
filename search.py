@@ -185,3 +185,4 @@ mysql_thread4.start()
 
 
 # Wait for the threads to finish
+#postgres_thread.join()

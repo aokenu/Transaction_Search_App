@@ -31,3 +31,4 @@ print(current_time)
 CurrentDate=datetime.date.today()  
 days = datetime.timedelta(30)
 
+new_date = CurrentDate - days

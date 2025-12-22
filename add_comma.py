@@ -35,3 +35,5 @@ new_date = CurrentDate - days
 final_date= new_date.strftime('%Y-%m-%d')
 #%d is for date  
 #%m is for month  
+#Y is for Year  
+print(final_date)

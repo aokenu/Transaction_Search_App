@@ -49,7 +49,7 @@ path1='C:/python_work/Transactions_search/session_ids.csv'
 with open(path1, 'r') as file_object:
     lines=file_object.read()
         #print(lines)
-     session_ids=lines.split()
+    session_ids=lines.split()
     #print(f"' + {banks} + '", sep="','" )
     print(session_ids)
     fieldnames=['BVN','first_name','Middle_name','Surname','DOB','Account','Bank']
@@ -57,5 +57,5 @@ with open(path1, 'r') as file_object:
     print(p)
     with open('comma.csv','w', newline='\n') as fileo:
        my_writer = csv.writer(fileo)
-        my_writer.writerow(p) 
+       my_writer.writerow(p) 
        

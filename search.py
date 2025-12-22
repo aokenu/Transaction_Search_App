@@ -179,3 +179,4 @@ mysql_thread4 = threading.Thread(target=run_mysql_query4)
 # Start the threads
 #postgres_thread.start()
 mysql_thread1.start()
+mysql_thread2.start()
